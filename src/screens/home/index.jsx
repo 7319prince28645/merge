@@ -3,8 +3,8 @@ import { style } from "./style";
 
 export const Home = () => {
     return (
-        <View style={style.container}>
-            <Text>Hola mundo</Text>
+        <View className="justify-center items-center h-full"> 
+            <Text className="text-2xl bg-red-200">Hola mundo</Text>
         </View>
     )
 }
